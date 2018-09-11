@@ -13,6 +13,8 @@ before_script:
 
 script:
   - docker-compose up
+  #it will not stop
+  - docker-compose down 
 
 after_script:
   - docker-compose down
